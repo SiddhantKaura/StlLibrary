@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STL | Library</title>
+        <link href="stlc.css" rel ="stylesheet" type="text/css">
+    </head>
+    <body>
+          <div class="navbar">  
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#vector">Vector</a></li>
+                <li><a href="#algorithm">Algorithm</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#set">Set</a></li>
+                <li><a href="#string">String</a></li>
+                <li><a href="#stack">Stack</a></li>
+                <li><a href="#queue">Queue</a></li>
+                <li><a href="#suggestions" target="_blank">Suggestions</a></li>
+            </ul>
+          </div>
+          <div class="wrapper">
+          <div id="home" class="g home">
+            <h2>Welcome to the World Of Standard Template Library</h2>
+            <p>Hello, Learning Enthusiast<span class="dot">.</span></p>
+            <p>If you are struggling to learn STL for competitive programming then don't worry,</p>
+            <p>we are here to provide you information about all STL libraries.</p>
+          </div>
+          <div id="vector" class="g vector">
+           
+            <h2>Vector</h2>
+           <p>Present in #include&lt;vector&gt; header file.</p>
+           <p>It is like dynamic array which can resize itself during insertion and deletion of element.</p>
+           <table>
+            <tr>
+               <th>Function Name</th>
+               <th>Function Calling</th>
+               <th>Description</th> 
+            </tr>
+            <tr>   
+                <td>vector::size </td>
+                <td>vector_name.size()</td>
+                <td>gives you the size of the vector.</td>
+            </tr>
+            <tr>
+                <td>vector::push_back</td>
+                <td>vector_name.push_back(element)</td>
+                <td>is used to add element at the back of the vector.</td>
+            </tr>
+            <tr>
+                <td>vector::insert</td>
+                <td>vector_name.insert(position,element)</td>
+                <td>is used to insert elements at the given position in the vector.</td>
+            </tr>
+            <tr>
+                <td>vector::begin</td>
+                <td>vector_name.begin()</td>
+                <td>is used to specify the beginning position of the vector.</td>
+            </tr>
+            <tr>
+                <td>vector::end</td>
+                <td>vector_name.end()</td>
+                <td>is used to specify the end position of the vector.</td>
+            </tr>
+            <tr>
+                <td>vector::erase</td>
+                <td>vector_name.erase(position of element to be erased)</td>
+                <td>is used to erase the element or group of elements by specifying their position in the vector.</td>
+            </tr>
+           
+           </table>
+          </div>
+          <div id="algorithm" class="g algorithm">
+              <div class="container">
+            <h2>Algorithm</h2>
+            <p>Present in #include&lt;algorithm&gt; header file.</p>
+            <p>It is a header file which contains many useful functions.</p>
+            <table>
+             <tr>
+                <th>Function Name</th>
+                <th>Function Calling</th>
+                <th>Description</th> 
+             </tr>
+             <tr>   
+                 <td>find </td>
+                 <td>container_name.find(startpos,endpos,elementTobeFound)</td>
+                 <td>returns the first position of element to be found/if not found then returns end of conatiner.</td>
+             </tr>
+             <tr>
+                 <td>count</td>
+                 <td>container_name.count(startpos,endpos,element)</td>
+                 <td>returns total count of element in the conatiner.</td>
+             </tr>
+             <tr>
+                 <td>binary_search</td>
+                 <td>container_name.binary_search(startpos,endpos,element)</td>
+                 <td>returns true if element found otherwise false.</td>
+             </tr>
+             <tr>
+                 <td>sort</td>
+                 <td>container_name.sort(startpos,endpos)</td>
+                 <td>is used to sort the container from starting position to ending position.</td>
+             </tr>
+             <tr>
+                 <td>min</td>
+                 <td>min(a,b)</td>
+                 <td>is used to find the minimum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                 <td>max</td>
+                 <td>max(a,b)</td>
+                 <td>is used to find the maximum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                <td>lower_bound</td>
+                <td>lower_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is equal to the element or greater.</td>
+            </tr>
+            <tr>
+                <td>upper_bound</td>
+                <td>upper_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is strictly greater then the element.</td>
+            </tr>
+            <tr>
+                <td>swap</td>
+                <td>swap(a,b)</td>
+                <td>is used to swap position of two elements such as a,b.</td>
+            </tr>
+            
+            </table>
+            </div>
+           </div>
+           <div id="map" class="g map">
+            <h2>Map</h2>
+            <p>Present in #include&lt;map&gt; header file.</p>
+            <p>It is a header file which contains map container.</p>
+            <table>
+             <tr>
+                <th>Function Name</th>
+                <th>Function Calling</th>
+                <th>Description</th> 
+             </tr>
+             <tr>   
+                 <td>find </td>
+                 <td>container_name.find(startpos,endpos,elementTobeFound)</td>
+                 <td>returns the first position of element to be found/if not found then returns end of conatiner.</td>
+             </tr>
+             <tr>
+                 <td>count</td>
+                 <td>container_name.count(startpos,endpos,element)</td>
+                 <td>returns total count of element in the conatiner.</td>
+             </tr>
+             <tr>
+                 <td>binary_search</td>
+                 <td>container_name.binary_search(startpos,endpos,element)</td>
+                 <td>returns true if element found otherwise false.</td>
+             </tr>
+             <tr>
+                 <td>sort</td>
+                 <td>container_name.sort(startpos,endpos)</td>
+                 <td>is used to sort the container from starting position to ending position.</td>
+             </tr>
+             <tr>
+                 <td>min</td>
+                 <td>min(a,b)</td>
+                 <td>is used to find the minimum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                 <td>max</td>
+                 <td>max(a,b)</td>
+                 <td>is used to find the maximum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                <td>lower_bound</td>
+                <td>lower_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is equal to the element or greater.</td>
+            </tr>
+            <tr>
+                <td>upper_bound</td>
+                <td>upper_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is strictly greater then the element.</td>
+            </tr>
+            <tr>
+                <td>swap</td>
+                <td>swap(a,b)</td>
+                <td>is used to swap position of two elements such as a,b.</td>
+            </tr>
+            
+            </table>
+           </div>
+           <div id="set" class="g set">
+            <h2>Set</h2>
+            <p>Present in #include&lt;set&gt; header file.</p>
+            <p>It is a header file which contains many useful functions.</p>
+            <table>
+             <tr>
+                <th>Function Name</th>
+                <th>Function Calling</th>
+                <th>Description</th> 
+             </tr>
+             <tr>   
+                 <td>find </td>
+                 <td>container_name.find(startpos,endpos,elementTobeFound)</td>
+                 <td>returns the first position of element to be found/if not found then returns end of conatiner.</td>
+             </tr>
+             <tr>
+                 <td>count</td>
+                 <td>container_name.count(startpos,endpos,element)</td>
+                 <td>returns total count of element in the conatiner.</td>
+             </tr>
+             <tr>
+                 <td>binary_search</td>
+                 <td>container_name.binary_search(startpos,endpos,element)</td>
+                 <td>returns true if element found otherwise false.</td>
+             </tr>
+             <tr>
+                 <td>sort</td>
+                 <td>container_name.sort(startpos,endpos)</td>
+                 <td>is used to sort the container from starting position to ending position.</td>
+             </tr>
+             <tr>
+                 <td>min</td>
+                 <td>min(a,b)</td>
+                 <td>is used to find the minimum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                 <td>max</td>
+                 <td>max(a,b)</td>
+                 <td>is used to find the maximum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                <td>lower_bound</td>
+                <td>lower_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is equal to the element or greater.</td>
+            </tr>
+            <tr>
+                <td>upper_bound</td>
+                <td>upper_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is strictly greater then the element.</td>
+            </tr>
+            <tr>
+                <td>swap</td>
+                <td>swap(a,b)</td>
+                <td>is used to swap position of two elements such as a,b.</td>
+            </tr>
+            
+            </table>
+           </div>
+           <div id="string" class="g string">
+            <h2>String</h2>
+            <p>Present in #include&lt;string&gt; header file.</p>
+            <p>It is a header file which contains many useful functions.</p>
+            <table>
+             <tr>
+                <th>Function Name</th>
+                <th>Function Calling</th>
+                <th>Description</th> 
+             </tr>
+             <tr>   
+                 <td>find </td>
+                 <td>container_name.find(startpos,endpos,elementTobeFound)</td>
+                 <td>returns the first position of element to be found/if not found then returns end of conatiner.</td>
+             </tr>
+             <tr>
+                 <td>count</td>
+                 <td>container_name.count(startpos,endpos,element)</td>
+                 <td>returns total count of element in the conatiner.</td>
+             </tr>
+             <tr>
+                 <td>binary_search</td>
+                 <td>container_name.binary_search(startpos,endpos,element)</td>
+                 <td>returns true if element found otherwise false.</td>
+             </tr>
+             <tr>
+                 <td>sort</td>
+                 <td>container_name.sort(startpos,endpos)</td>
+                 <td>is used to sort the container from starting position to ending position.</td>
+             </tr>
+             <tr>
+                 <td>min</td>
+                 <td>min(a,b)</td>
+                 <td>is used to find the minimum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                 <td>max</td>
+                 <td>max(a,b)</td>
+                 <td>is used to find the maximum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                <td>lower_bound</td>
+                <td>lower_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is equal to the element or greater.</td>
+            </tr>
+            <tr>
+                <td>upper_bound</td>
+                <td>upper_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is strictly greater then the element.</td>
+            </tr>
+            <tr>
+                <td>swap</td>
+                <td>swap(a,b)</td>
+                <td>is used to swap position of two elements such as a,b.</td>
+            </tr>
+            
+            </table>
+           </div>
+           <div id="stack" class="g stack">
+            <h2>Stack</h2>
+            <p>Present in #include&lt;stack&gt; header file.</p>
+            <p>It is a header file which contains many useful functions.</p>
+            <table>
+             <tr>
+                <th>Function Name</th>
+                <th>Function Calling</th>
+                <th>Description</th> 
+             </tr>
+             <tr>   
+                 <td>find </td>
+                 <td>container_name.find(startpos,endpos,elementTobeFound)</td>
+                 <td>returns the first position of element to be found/if not found then returns end of conatiner.</td>
+             </tr>
+             <tr>
+                 <td>count</td>
+                 <td>container_name.count(startpos,endpos,element)</td>
+                 <td>returns total count of element in the conatiner.</td>
+             </tr>
+             <tr>
+                 <td>binary_search</td>
+                 <td>container_name.binary_search(startpos,endpos,element)</td>
+                 <td>returns true if element found otherwise false.</td>
+             </tr>
+             <tr>
+                 <td>sort</td>
+                 <td>container_name.sort(startpos,endpos)</td>
+                 <td>is used to sort the container from starting position to ending position.</td>
+             </tr>
+             <tr>
+                 <td>min</td>
+                 <td>min(a,b)</td>
+                 <td>is used to find the minimum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                 <td>max</td>
+                 <td>max(a,b)</td>
+                 <td>is used to find the maximum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                <td>lower_bound</td>
+                <td>lower_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is equal to the element or greater.</td>
+            </tr>
+            <tr>
+                <td>upper_bound</td>
+                <td>upper_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is strictly greater then the element.</td>
+            </tr>
+            <tr>
+                <td>swap</td>
+                <td>swap(a,b)</td>
+                <td>is used to swap position of two elements such as a,b.</td>
+            </tr>
+            
+            </table>
+           </div>
+           <div id="queue" class="g queue">
+            <h2>Queue</h2>
+            <p>Present in #include&lt;queue&gt; header file.</p>
+            <p>It is a header file which contains many useful functions.</p>
+            <table>
+             <tr>
+                <th>Function Name</th>
+                <th>Function Calling</th>
+                <th>Description</th> 
+             </tr>
+             <tr>   
+                 <td>find </td>
+                 <td>container_name.find(startpos,endpos,elementTobeFound)</td>
+                 <td>returns the first position of element to be found/if not found then returns end of conatiner.</td>
+             </tr>
+             <tr>
+                 <td>count</td>
+                 <td>container_name.count(startpos,endpos,element)</td>
+                 <td>returns total count of element in the conatiner.</td>
+             </tr>
+             <tr>
+                 <td>binary_search</td>
+                 <td>container_name.binary_search(startpos,endpos,element)</td>
+                 <td>returns true if element found otherwise false.</td>
+             </tr>
+             <tr>
+                 <td>sort</td>
+                 <td>container_name.sort(startpos,endpos)</td>
+                 <td>is used to sort the container from starting position to ending position.</td>
+             </tr>
+             <tr>
+                 <td>min</td>
+                 <td>min(a,b)</td>
+                 <td>is used to find the minimum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                 <td>max</td>
+                 <td>max(a,b)</td>
+                 <td>is used to find the maximum of two elements such as a,b.</td>
+             </tr>
+             <tr>
+                <td>lower_bound</td>
+                <td>lower_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is equal to the element or greater.</td>
+            </tr>
+            <tr>
+                <td>upper_bound</td>
+                <td>upper_bound(startpos,endpos,element)</td>
+                <td>is used to find the position of first element in container which is strictly greater then the element.</td>
+            </tr>
+            <tr>
+                <td>swap</td>
+                <td>swap(a,b)</td>
+                <td>is used to swap position of two elements such as a,b.</td>
+            </tr>
+            
+            </table>
+           </div>
+           <div id="suggestions" class="suggestions">
+            <h2>Suggestions are always welcome</h2>
+            <form id="myForm" action="/action_page.php">
+                Feedback: 
+                <textarea></textarea><br>
+                
+                <input type="button" onclick="myFunction()" value="Submit form">
+            </form>
+            <script>
+                function myFunction() {
+  document.getElementById("myForm").submit();
+}
+            </script>
+           </div>
+          </div>
+          <footer>
+              <p>Made By Siddhant Kaura</p>
+          </footer>
+    </body>
+</html>
